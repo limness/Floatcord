@@ -27,7 +27,7 @@
 			$_SESSION['email'] = $_POST['email_input'];
 			header("Location: payment_vip_buy.php");
 		}
-  }
+	}
 ?>
 
 <!DOCTYPE html>
