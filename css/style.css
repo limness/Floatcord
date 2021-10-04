@@ -1,0 +1,501 @@
+@font-face {
+    font-family: GothamSSm Narrow Medium;
+    src: url("../fonts/14153.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+@font-face{
+    font-family: GothamSSm Narrow Light;
+    src: url("../fonts/14155.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #14171e;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+#logo {
+	color: #f6f6f6;
+	font-family: GothamSSm Narrow Light;
+	font-size: 18pt;
+	margin: 32pt;
+
+	text-decoration: none;
+  	-moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#logo:active, #logo:hover, #logo:focus {
+	outline: 0;
+	outline-offset: 0;
+	color: #fff;
+}
+
+#select {
+
+	font-family: GothamSSm Narrow Medium;
+}
+
+#body_name {
+	color: #f6f6f6;
+	font-family: GothamSSm Narrow Medium;
+	text-align: center;
+	font-size: 17pt;
+}
+
+#body_name_two {
+	color: #f6f6f6;
+	font-family: GothamSSm Narrow Light;
+	font-size: 12pt;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#later_connect {
+  border: none;
+  outline: none;
+  text-align: center;
+	color: #2e3648;
+	background: #1b202b;
+	font-family: GothamSSm Narrow Medium;
+	font-size: 10pt;
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 18px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border-radius: 6px;
+	text-decoration: none;
+  width: 100%;
+}
+
+#button_create_server {
+	background: #43b581;
+	color: #f6f6f6;
+	font-family: GothamSSm Narrow Medium;
+	font-size: 10pt;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 18px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 6px;
+ 	text-decoration: none;
+}
+
+#button_connect_to_server {
+	color: #5175a3;
+	border: 1px solid #5175a3;
+	font-family: GothamSSm Narrow Medium;
+	font-size: 10pt;
+	cursor: pointer;
+	display: inline-block;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+#button_connect_to_server:hover
+{
+	color: #f6f6f6;
+	background: #5175a3;
+}
+
+.section > div {
+  display: inline-block;
+}
+
+.button {
+	margin-top: 50px;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#input_search {
+	background: #14171e;
+	font-family: GothamSSm Narrow Medium;
+	color: #2f3645;
+	border: none;
+	width: 230px;
+	padding-left: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 25px;
+	border-radius: 6px;
+}
+
+#input_search::placeholder {
+  color:  #2f3645;
+}
+
+#input_search:focus {
+    outline: none;
+	font-family: GothamSSm Narrow Medium;
+}
+
+#name_channel {
+	color: #f6f6f6;
+	font-family: GothamSSm Narrow Light;
+	font-size: 12pt;
+}
+
+#input_group {
+	margin: 32pt;
+}
+
+#code_from_channel {
+	margin: 32pt;
+	border: none;
+	font-family: GothamSSm Narrow Medium;
+}
+
+#code_from_channel:focus {
+    outline: none;
+	color: #f6f6f6;
+	font-family: GothamSSm Narrow Medium;
+}
+
+#code_from_channel::-webkit-input-placeholder {
+	color: #313744;
+	font-family: GothamSSm Narrow Medium;
+}
+
+
+::-webkit-scrollbar
+{
+	background: #1c212b;
+	width: 10px;
+	height: 3px;
+	border-radius: 6px;
+	padding: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #313744;
+	border-radius: 6px;
+}
+
+#buttons_input {
+	margin-right: 18px;
+}
+
+textarea {
+  width: 100%;
+}
+
+#container-code {
+	margin: 32pt;
+	border-radius: 6px;
+	width: 900pt;
+	height: 350pt;
+}
+
+#container_load_files {
+	margin: 32pt;
+}
+
+input#load_file {
+	display: none;
+}
+
+
+input#load_file + label {
+	font-family: GothamSSm Narrow Medium;
+	font-size: 9pt;
+	background-color: #181c25;
+	color: #f6f6f6;
+
+	cursor: pointer;
+
+	border-radius: 6px;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#load_file {
+
+	background: #233641;
+	color: #f6f6f6;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#submit_load {
+	font-family: GothamSSm Narrow Medium;
+	font-size: 9pt;
+	background-color: #181c25;
+	color: #f6f6f6;
+	border-radius: 6px;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	cursor: pointer;
+
+	border: none;
+	outline: none;
+}
+
+#button_connect_to_server_from_connect {
+	background: #5175a3;
+	color: #e7edfb;
+	font-family: GothamSSm Narrow Medium;
+	font-size: 10pt;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 6px;
+	text-decoration: none;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 20px;
+	border: none;
+	outline: none;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+#about_developer
+{
+	cursor: pointer;
+	padding: 8pt;
+	padding-bottom: 10pt;
+	border-radius: 6px;
+	margin-left: 10pt;
+	font-size: 10pt;
+	font-family: GothamSSm Narrow Light;
+	color: #f6f6f6;
+	text-decoration: none;
+	display:inline-block;
+}
+
+#change_language
+{
+	cursor: pointer;
+	padding: 8pt;
+	padding-bottom: 10pt;
+	border-radius: 6px;
+	margin-left: 10pt;
+	font-size: 10pt;
+	font-family: GothamSSm Narrow Light;
+	color: #f6f6f6;
+	text-decoration: none;
+	display:inline-block;
+}
+
+#vip
+{
+	cursor: pointer;
+	margin-top: 32pt;
+	margin-right: 32pt;
+	font-size: 10pt;
+	font-family: GothamSSm Narrow Light;
+	display:inline-block;
+
+	position: fixed;
+  top:0;
+  right:0;
+}
+
+#button_vip {
+	font-family: GothamSSm Narrow Medium;
+	color: #eb6f6f;
+	border: 1px solid #eb6f6f;
+	text-decoration: none;
+	padding: 8pt;
+	border-radius: 6px;
+}
+#button_vip:hover
+{
+	color: #f6f6f6;
+	background: #eb6f6f;
+}
+
+#button_buy_vip_after_email {
+	background: #43b581;
+	color: #e7edfb;
+	font-family: GothamSSm Narrow Medium;
+	font-size: 10pt;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 6px;
+	text-decoration: none;
+	cursor: pointer;
+	width: 100%;
+	margin-top: 20px;
+	border: none;
+	outline: none;
+}
+
+#paypal-button
+{
+  width: 300px;
+  height: 30px;
+  color: #fff;
+}
+
+.chat
+{
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.chat-container
+{
+  display:inline-block;
+  overflow: auto;
+  height: 600px;
+  width: 700px;
+  border-radius: 10px;
+  background: #10131a;
+}
+
+.chat-frame
+{
+  overflow: auto;
+  height: 85%;
+  width: 100%;
+/*  background: #171b25; */
+}
+
+.message-chat {
+  font-family: GothamSSm Narrow Medium;
+  font-size: 10pt;
+	color: #fff;
+  padding: 10px;
+	border-radius: 15px;
+  margin-bottom: 10px;
+  background: #78a1ff;
+  display: table;
+  margin: 10px 120px 0px 40px;
+}
+
+.your-message-chat {
+  font-family: GothamSSm Narrow Medium;
+  font-size: 10pt;
+	color: #fff;
+  padding: 10px;
+	border-radius: 15px;
+  background: #1d2532;
+  display: table;
+  margin: 10px 40px 0px auto;
+}
+
+.input_chat {
+  margin-top: 20px;
+	background: #171b25;
+	font-family: GothamSSm Narrow Medium;
+	color: #2f3645;
+	border: none;
+  width: 85%;
+	padding-left: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 25px;
+	border-radius: 10px;
+}
+
+.input_chat::placeholder {
+  color:  #2f3645;
+}
+
+.input_chat:focus {
+  outline: none;
+  font-family: GothamSSm Narrow Medium;
+}
+
+
+
+.input_username_chat {
+	background: #171b25;
+	font-family: GothamSSm Narrow Medium;
+	color: #2f3645;
+	border: none;
+  width: 100%;
+  margin-right: 10px;
+	padding-left: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 25px;
+	border-radius: 10px;
+}
+
+.input_username_chat::placeholder {
+  color:  #2f3645;
+}
+
+.input_username_chat:focus {
+  outline: none;
+  font-family: GothamSSm Narrow Medium;
+}
+
+#change_username_button {
+	background: #10131a;
+	color: #e7edfb;
+	font-family: GothamSSm Narrow Medium;
+	font-size: 10pt;
+  margin-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 6px;
+	text-decoration: none;
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	outline: none;
+}

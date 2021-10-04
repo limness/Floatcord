@@ -1,0 +1,53 @@
+#login_input {
+	background: #181c25; 
+	font-family: GothamSSm Narrow Medium; 
+	color: #2f3645;
+	border: none; 
+	width: 230px; 
+	padding-left: 25px; 
+	padding-top: 15px; 
+	padding-bottom: 15px; 
+	padding-right: 25px; 
+	border-radius: 6px;
+}
+
+#login_input::placeholder {
+  color:  #2f3645;
+}
+
+#login_input:focus {
+    outline: none;
+	font-family: GothamSSm Narrow Medium; 
+}
+
+#login_button {
+	background: #43b581; 
+	color: #e7edfb; 
+	font-family: GothamSSm Narrow Medium; 
+	font-size: 10pt; 
+	padding-top: 15px; 
+	padding-bottom: 15px; 
+	padding-left: 25px;
+	padding-right: 25px; 
+	border-radius: 6px; 
+	text-decoration: none; 
+	cursor: pointer;
+	width: 100%; 
+	margin-top: 20px; 
+	border: none; 
+	outline: none;
+}
+
+#items_vip {
+	margin-bottom: 20px;
+	display: flex; 
+	color: #f6f6f6;
+	justify-content: center; 
+	font-family: GothamSSm Narrow Light; 
+	background: #181c25;
+	padding-top: 15px; 
+	padding-bottom: 15px; 
+	padding-left: 25px;
+	padding-right: 25px; 
+	border-radius: 6px; 
+}

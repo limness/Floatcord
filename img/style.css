@@ -1,0 +1,106 @@
+body {
+	background: #0d0f14;
+	margin: 0;
+	padding: 0;
+}
+
+#logo {
+	color: #f6f6f6;
+	font-weight: lighter;
+	font-family: GothamSSm;
+	font-size: 15pt;
+	margin: 32pt; 
+	
+	text-decoration: none;
+  	-moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+#logo:active, #logo:hover, #logo:focus {
+	outline: 0;
+	outline-offset: 0;
+	color: #fff;
+}
+
+#select {
+	font-weight: normal;
+}
+
+#body_name {
+	color: #f6f6f6;
+	font-family: GothamSSm;
+	text-align: center; 
+	font-size: 17pt;
+	margin-top: 17%; 
+}
+
+#body_name_two {
+	color: #f6f6f6;
+	font-family: GothamSSm;
+	font-weight: lighter;
+	font-size: 12pt;
+	text-align: center; 
+	margin-top: 5px; 
+}
+
+#button_create_server {
+	background: #43b581;
+	color: #f6f6f6;
+	font-family: GothamSSm;
+	font-size: 10pt;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 18px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 6px;
+ 	text-decoration: none;
+}
+
+.input_search {
+	background: transparent;
+	border: 1px solid white;
+
+	margin-left: 250px;
+	margin-top: 30px;
+
+	padding-left: 35px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 35px;
+
+	border-radius: 5px;
+
+	width: 170px;
+}
+
+input[type="search"]::placeholder { color: #ffd595; } 
+
+#button_connect_to_server {
+	background: #233641;
+	color: #f6f6f6;
+	font-family: GothamSSm;
+	font-size: 10pt;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 18px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+.section > div {
+  display: inline-block;
+}
+
+.button {
+	margin-top: 50px;
+  	text-align: center;
+}
